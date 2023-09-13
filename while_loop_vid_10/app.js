@@ -1,4 +1,4 @@
-/*
+
 
 // while loop 
 
@@ -9,15 +9,15 @@ while (i < n ){
           console.log(i)
           i++;
 }
-*/
+
 
 // do while loop 
 
-let n = prompt("enter your value of n")
-n = Number.parseInt(n)
-let i = 0;
+let n1 = prompt("enter your value of n")
+n = Number.parseInt(n1)
+let k = 0;
 do {
-          console.log(i)
-          i++;
+          console.log(k)
+          k++;
           
-}while( i <= n)
+}while( k <= n1)

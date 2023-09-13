@@ -1,5 +1,4 @@
 // problem no - 1
-/*
 
 let marks = {
           harry : 90,
@@ -18,20 +17,20 @@ for (let i = 0; i<Object.keys(marks).length; i++){
 for (let key in marks){
           console.log("the mark of " + key + "are" + marks[key])
 }
-   */   
-/*
+      
+
 // problem no -3
 
-let cn = 43
-let i
-while(i!= cn){
+ let cn = 43
+ let i
+ while(i!= cn){
 
-          console.log("try again")
-          i = prompt("enter a number")
-}
-console.log("you have enterd a coreect number")
+           console.log("try again")
+           i = prompt("enter a number")
+ }
+ console.log("you have enterd a coreect number")
 
-// problem no - 4 */
+// problem no - 4
 
 const mean = (a,  b,  c,   d)=>{
    return ( a+b+c+d)/4

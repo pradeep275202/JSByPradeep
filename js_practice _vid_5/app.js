@@ -16,8 +16,8 @@ const a1 ={
           section :1,
           isprincipal :false,
 }
- // a1 = 45
- // a1 = {}
+  //a1 = 45
+  //a1 = {}
 
  // question no - 4
  

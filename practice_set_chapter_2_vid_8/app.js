@@ -1,19 +1,19 @@
 // problem no-1
-/*
+
 let age = prompt("whats your age?")
 if(age>10 && age<20){
           console.log("your age lies beetween 10 and 20")
 }
 else{
           console.log("your age dosent lies beetween 10 and 20")
-}  */
+}  
 
 //problem n0-2
 
 
-/*
-let age = prompt("whats your age")
-switch(age){
+
+let age2 = prompt("whats your age")
+switch(age2){
           case'12' :
                     console.log("your age is 12")
                     break
@@ -32,9 +32,9 @@ switch(age){
                     console.log("your age is not special")                 
 }
 
-*/
 
-/*
+
+
 // problem no-3
 
 let num = prompt("what your age")
@@ -50,17 +50,17 @@ else {
 
 // problem no - 4
 
-*/
 
-let num = prompt("whats your age ")
-num = Number.parseInt(num)
 
-if(num % 2 == 0){
+let num1 = prompt("whats your age ")
+num = Number.parseInt(num1)
+
+if(num1 % 2 == 0){
           console.log("your age divisible by 2")
 
 }
 
-else if(num % 3 == 0){
+else if(num1 % 3 == 0){
           console.log("your age divisible by 3")
 }
 else{
@@ -69,6 +69,6 @@ else{
 
  // problem no - 5  use turnory operator
 
- let age = 19
- let a = age > 18 ? "you can drive" : "you cannot drive"
+ let age1 = 19
+ let a = age1 > 18 ? "you can drive" : "you cannot drive"
  console.log(a)

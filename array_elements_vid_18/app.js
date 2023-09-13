@@ -1,13 +1,15 @@
-//let num = [1,2,3,4,5,6,7,8,9]
+let num = [1,2,3,4,5,6,7,8,9]
 let num_more = [11,12,13,14,151,16,17,18,19]
 let num_even = [211,212,213,214,215,216,416,417,418,419]
-//console.log(num.length)
-//delete num[0]
-//console.log[num.lenghth]
+console.log(num.length)
+delete num[0]
+console.log[num.lenghth]
 
-// let newArray = num.concat(num_more, num_even_more)
-// console.log(newArray)
-// console.log(num, num_more)
+// use the concat
+
+  let newArray = num.concat(num_more, num_even)
+  console.log(newArray)
+  console.log(num, num_more)
 
 // sort method
 
@@ -21,10 +23,10 @@ console.log(number)
 
 // splice and slice
 
-let num = [551,55,22,1,14,15,6,7,8,229]
-let deletevalues = num.splice(2,4,102,122,1022,1024,1025)
-console.log(num)
+let num1 = [551,55,22,1,14,15,6,7,8,229]
+let deletevalues = num1.splice(2,4,102,122,1022,1024,1025)
+console.log(num1)
 console.log(deletevalues)
-let newnum = num.slice(3)
-let newnumber = num.slice(3,5)
+let newnum = num1.slice(3)
+let newnumber = num1.slice(3,5)
 console.log(newnumber)

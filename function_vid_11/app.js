@@ -1,4 +1,4 @@
-// function 
+// use function and take one plus average
 
 const hello  = () => {
           console.log("hey how are you I am to fine")
