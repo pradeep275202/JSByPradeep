@@ -305,6 +305,72 @@ let equ3 = equ1 <= equ
 console.log("value of equ3 = ",equ3) 
 
 
+// *** logical operator ***
+
+//     logical and &&
+//    First example ---
+
+ var log = 10;
+ var log1 = 20;
+ var log2 = log == log1;
+ var log3 = log != log1;
+ console.log('and operator:',log2 && log3)
+
+ //  second example ---
+ var sen = 20;
+ var sen1 = 25;
+ var sen2 = sen == sen1;
+ var sen3 = sen != sen1;
+ console.log('and operator :',sen2 && sen3)
+
+
+// Logical or operator
+
+// First example
+var lo = 33;
+var lo1 = 35;
+var lo2 = lo == lo1;
+var lo3 = lo != lo1;
+console.log('or operator :',lo2 || lo3)
+
+// Second example
+ var sen = 50;
+ var sen1 = 51;
+ var sen2 = sen == lo1;
+ var sen3 = sen == sen1;
+ console.log('or operator :', sen2 || sen3)
+
+ // Third example 
+
+ var thir = 45;
+ var thir1 = 50;
+ var thir2 = thir == thir1;
+ var thir3 = thir != thir1;
+ console.log('or operator :', thir2 || thir3)
+
+ // ***** Logical not ! ****
+ 
+ // First example 
+ var fi = 30;
+ var fi1 = 50;
+ var fi2 = fi == fi1;
+ var fi3 = fi != fi1;
+ console.log('not operator :', !(fi > 0 || fi1 < 0));
+
+ // Second Example
+ var third = 20;
+ var third1 = 21;
+ console.log('not operator :',!(third > 0 || 0 > third1))
+
+ // 5. **Conditional (Ternary) Operator**:
+
+ //    - Conditional ? :
+
+ console.log('ternary operator : ', 40 < 60 ? true : false)
+ console.log('ternary operator : ', 50 < 100 ? true : false)
+
+
+
 
 
 
