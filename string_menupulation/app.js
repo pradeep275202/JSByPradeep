@@ -81,4 +81,14 @@ let u = "he in unbelevel"
 console.log(u.startsWith("he"))
 console.log(u.startsWith("he,6"))
 
-//
+// Ends with
+let k1 = "this is not bad"
+console.log(k1.endsWith("bad"))
+
+// string padstart
+let m1 = "5";
+console.log(m1.padStart(10,"j"))
+
+// string padend
+let a1 = "20";
+console.log(a1.padEnd(10,"k"))
