@@ -55,6 +55,6 @@ console.log(week)
 
 // Araray slice method ---
 let month =["jan","feb","mar","apr","may","jun"]
-console.log(month.slice(2,4))
+console.log(month.slice(2,40))
 
 
