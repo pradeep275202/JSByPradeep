@@ -15,15 +15,13 @@ for (var i= 0; i <=0; i++) {
           
 }*/
 
-function reverce() {
-          
-
+function filter() {          
 var a = [1,2,-3,4,-5,6,-7,8,-9]
 var newarray = []
 for(let i=a.length;i>0;i++)
-     if(i<=0){
+     if(0<i){
           newarray.push(i[a])
-          console.log(i)
+          console.log(newarray)
      }
 }  
-reverce()
+filter()

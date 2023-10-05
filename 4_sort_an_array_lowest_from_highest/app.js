@@ -1,5 +1,9 @@
-var a = [1,-1,2,-3,4,-5,6,-7,8,-9]  
-if (a=>0) {
-    console.log(a)
+function sort() {
+var a = [1,2,9,5,8,3,4,6,7]
+for(i=a;i=a.length;i++)
+if(i<=0){
+    console.log(i)
+}
     
 }
+sort()
