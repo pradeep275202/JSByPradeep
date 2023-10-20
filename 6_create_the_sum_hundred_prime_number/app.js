@@ -1,13 +1,29 @@
-function primenumber(){
-          for(i=0;i<=100;i++)
-          if(i%2==0 && i%3==0){
-                    break;
+var prime = function (){
+          var num = 0;
+          for (num = 0; num < 100; num++){
+              if (num % 2 === 0){
+                  break;
+              }
+              else if (num % 3 === 0){
+                  break;
+              }
+              
+              else if (num % 5 === 0){
+                  break;
+              
+              }
+              else if (num % 7 === 0){
+                  break;
+              
+              }
+              else if (num % 11 === 0){
+                  break;
+              
+              }
+              else {
+                  return num;
+              }
           }
-          else if(i%5==0 && i%7==0){
-                    break;
-                    
-          }else{
-                    console.log(i)
-          }
-}
-primenumber()
+          };
+          console.log(prime());
+          
