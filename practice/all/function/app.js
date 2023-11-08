@@ -1,4 +1,4 @@
-// use for loop in function and print 1 to 100 number
+/*  // use for loop in function and print 1 to 100 number
 function number() {
           for(i=0;i<100;i++)
           console.log(i)
@@ -19,4 +19,25 @@ function sum(){
                     console.log(i)                    
           }
 }
-sum()
+sum()  
+
+function array(){
+          var a =[1,2,3,4,5,6,7,8,9]
+          reverce=[]
+          for(i=a.length-1;i>0;i--){
+                    reverce.push(a[i])
+
+          }
+          console.log(reverce)
+}
+array()  */
+
+function string(){
+          var str = "this is a laptop"
+          reverce = ""
+          for(i=str.length-1;i>0;i--){
+                    reverce += str[i];
+          }
+          console.log(reverce)
+}
+string()
