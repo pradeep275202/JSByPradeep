@@ -1,9 +1,7 @@
-function word(){
-          var text ="this is a laptop";
-          var retur ="";
-          for(i=0;i<text.length;i++){
-                    retur+=text[i]
+function texts() {
+          var word = "thisislaptop"
+          for(i=1;i<word.length+1;i++){
+                    console.log(i)
           }
-          console.log(retur)
 }
-word()
+texts()

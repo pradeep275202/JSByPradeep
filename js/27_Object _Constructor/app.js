@@ -1,18 +1,29 @@
-// object
+ /*// object
 const object ={
           name:"Ramu",
           age:"22",
           village:"Dullahpur"
 
 }
-console.log(object)
+console.log(object)  */
 
 // objector
-function ram(a,b,c,d){
+function ObjectCtor(a, b, c) {
+          this.name = a,
+                    this.age = b,
+                    this.address = c
+}
+const objectCtor = new ObjectCtor("Chandan", 20, "Dakahiya")
+console.log(objectCtor)
+
+
+function ObjectCtor(a,b,c,d) {
           this.name =a,
           this.age=b,
           this.village=c,
-          this.country=d
+          this.distic=d
 }
-const objeCtor =new ObjeCtor("ram", 23 ,"dullahpur","india")
-console.log(objector)
+const ram = new ObjectCtor("ram",12,"dullahpur","ghazipur")
+console.log(ram)
+
+// 
