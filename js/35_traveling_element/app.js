@@ -30,5 +30,8 @@ const child = parentelement.children;
 console.log(child)
 
 for(let data of child){
-          data.computedStyleMap.color ="red"
+          data.style.color ="red"
+          data.style.background="black"
 }
+const priviouselment = parentelement.nextElementSibling;
+console.log(priviouselment)
