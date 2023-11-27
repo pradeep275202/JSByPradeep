@@ -28,18 +28,26 @@
 // }
 // console.log(primenumber(100))
 
-function primenumber(k){
-  for(var i = 2; i<k; i++){
-      if(k % i === 0){
-          return false;
-          
-        
-      }
-  }
-  return true;  
+function isPrime(_num) {
+	for(var i = 2; i < _num; i++) {
+		if(!(_num % i)) {
+			return false
+		}
+	}
+	return true;
 }
-for(i=0;i<=100;i++){
-  if(primenumber(i)){
-      console.log(i)
-  }
+
+
+function sumPrimes(_num) {
+	var sum = 0;
+	for(var i = 2; i <= _num; i++) {
+		if(isPrime(i)) {
+			sum += i;
+		}
+	}
+	return sum;
 }
+
+console.log (sumPrimes(100)) 
+sumPrimes(5) 
+

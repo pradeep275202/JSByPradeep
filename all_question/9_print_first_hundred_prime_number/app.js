@@ -1,14 +1,16 @@
-var num = 1;
-while (num <= 100) {
-  var isPrime = true;
-  for (var i = 2; i < num; i++) {
-    if (num % i === 0) {
-      isPrime = false;
-      break;
-    }
+// print first hundred prime number 
+function primenumber(k){
+  for(var i = 2; i<k; i++){
+      if(k % i === 0){
+          return false;
+          
+        
+      }
   }
-  if (isPrime) {
-    console.log(num);
+  return true;  
+}
+for(i=0;i<=100;i++){
+  if(primenumber(i)){
+      console.log(i)
   }
-  num++;
 }
