@@ -1,4 +1,3 @@
-const parent = document.getElementById("remove")
-parent.removeChild(childelm)
-const childelm =parent.firstElementChild;
+var parent = document.getElementById("remove")
+var remove = parent.firstElementChild.remove()
 
