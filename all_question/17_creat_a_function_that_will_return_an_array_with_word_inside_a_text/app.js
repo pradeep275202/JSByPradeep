@@ -1,21 +1,15 @@
-/*function text(){
-          var string = "create a @ number (hi) # with * javascript"
-          var array = [];
-          for(var i = 0;i<=string.length;i++){
-                    if(i===lo)
-                    array.push(string[i])
-                    console.log(array)
-          }
-          return (array)
+let array = "create a @ number (hi) # with * 1232 ,,, 5585645 javascript";
+let filter = "";
+for (var i = 0; i < array.length; i++) {
+  let check = isincludes(array[i]);
+  
+  if (check == false) {
+    filter += array[i];
+  }
 }
-text()  */
-function filter(){
-          var string = "(hii) this # is@  laptop"
-          var filter = [];
-          for(var i=0;i<string.length;i++){
-                    if (string[i] === "^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$ ") {
-                              filter.push(string[i])
-                              console.log(i)
-                    }
-          }
+ console.log(filter);
+function isincludes(data) {
+  let regex = ["@", "(", ")", "#", "*", "", ",", ".", "$"];
+
+  return regex.includes(data);
 }
