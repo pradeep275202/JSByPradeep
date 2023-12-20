@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+</head>
+<body>
+          <style>
+                    .size{
+                              font-weight: bold;
+                              font-size: 50px;
+                    }
+                    .color{
+                              color: blue;
+                              background-color: red;
+                              border: none;
+                    }
+                    .mouse{
+                              cursor: pointer;
+                              
+                    }
+          </style>
+          <button onclick="hii" class="size color mouse">Click Me!</button>
+          
+          <script>
+                    const btn = document.querySelector("button")
+                    const check = btn.className;
+                    console.log("this is check how many class aplied ====",check)
+          </script>
+</body>
+</html>
