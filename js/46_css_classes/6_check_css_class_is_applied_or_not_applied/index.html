@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+</head>
+<body>
+          <style>
+                    .size{
+                              font-size: 40px;
+                              font-weight: bold;
+                              border: none;
+
+                    }
+                    .color{
+                              background-color: rgb(rgb(95, 7, 7), rgb(25, 191, 25), rgb(14, 14, 145));
+                              color:  red;
+                              cursor: pointer;
+                              
+                    }
+          </style>
+          <button class="size color mouse">Click Me!</button>
+          <script>
+                   const btn = document.querySelector("button")
+                   const check = btn.classList.contains("mouse")
+                   console.log("check =====",check)
+                   
+          </script>
+</body>
+</html>
