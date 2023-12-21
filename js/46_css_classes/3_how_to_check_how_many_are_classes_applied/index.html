@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+</head>
+<body>
+          <button class="size mouse color">Click Me!</button>
+          <script>
+                    const btn = document.querySelector("button")
+                    const check =btn.classList;
+                    console.log("this on check how many class applied ===",check)
+                    for(let css of check){
+                              console.log(`class is ${css}`)
+                    }
+          </script>
+</body>
+</html>

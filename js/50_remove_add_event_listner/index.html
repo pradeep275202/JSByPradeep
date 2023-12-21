@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+</head>
+<body>
+          <h1>RemoveAddEventlistner()</h1>
+          <br />
+          <button onclick="Remove()">Click to stop</button>
+          <br />
+          <p></p>
+          <script>
+                    const  para = document.querySelector("p")
+
+                    function randomNumber(){
+                              para.innerHTML = Math.random();
+                    }
+
+                    const btn = document.querySelector("button");
+
+                    btn.addEventListener("mouseenter",randomNumber)
+
+                    function Remove(){
+                              btn.removeEventListener("mouseenter",randomNumber)
+                    }
+          </script>
+</body>
+</html>
