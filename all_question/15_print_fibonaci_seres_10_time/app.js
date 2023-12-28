@@ -1,7 +1,7 @@
 function fibonacci(num) {
           let num1 = 0;
           let num2 = 1;
-          let sum;
+          let sum =0;
           let i = 0;
           console.log('num1 ', num1);
           console.log('num2 ', num2);
@@ -19,5 +19,5 @@ function fibonacci(num) {
           return num2;
       }
       
-      console.log("Fibonacci(10): ", fibonacci(3));
+      console.log("Fibonacci(10): ", fibonacci(10));
       
