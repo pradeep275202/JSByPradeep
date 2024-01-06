@@ -28,9 +28,9 @@
 // }
 // console.log(primenumber(100))
 
-function isPrime(_num) {
-	for(var i = 2; i < _num; i++) {
-		if(!(_num % i)) {
+function isPrime(num) {
+	for(var i = 2; i < num; i++) {
+		if(!(num % i)) {
 			return false
 		}
 	}
@@ -38,9 +38,9 @@ function isPrime(_num) {
 }
 
 
-function sumPrimes(_num) {
+function sumPrimes(num) {
 	var sum = 0;
-	for(var i = 2; i <= _num; i++) {
+	for(var i = 2; i <= num; i++) {
 		if(isPrime(i)) {
 			sum += i;
 		}
