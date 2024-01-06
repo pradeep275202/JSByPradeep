@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+</head>
+<body>
+          <!----before begin----->
+          <div id="intro">
+          <!---after begin---->          
+                    <h1>
+                              this is a heading
+                    </h1>
+
+                    <p>
+                              this is paragraph
+
+                    </p>          
+          <!---after end---->  
+          </div>
+          <!----before end---->
+
+         <script>
+          // insertAdjacentHtml("positon","content")
+          const content =`<small>Name</small>`
+          const divelment =document.getElementById("intro");
+          divelment.insertAdjacentHTML("beforeend",content)
+         </script>
+</body>
+</html>

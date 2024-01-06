@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=h1, initial-scale=1.0">
+          <title>Document</title>
+</head>
+<body>
+          <h1>This is input event</h1>
+          <br>
+          <br>
+          <p style="word-spacing: 5px;">Write something in input field</p>
+          <input type="text" id="myinput" oninput="myfunction()">
+          <p id="demo"></p>
+
+          <script>
+                    function myfunction(){
+                              let text = document.getElementById("myinput").value
+                              document.getElementById("demo").innerHTML = "you wrote: " + text;
+
+                    }
+          </script>
+</body>
+</html>
