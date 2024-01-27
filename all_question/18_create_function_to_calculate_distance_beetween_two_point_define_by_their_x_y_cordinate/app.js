@@ -3,5 +3,5 @@ function distance(x1, y1, x2, y2) {
           const dy = y2 - y1;         
           return Math.sqrt(dx * dx + dy * dy);
         }        
-        const distanceBetweenPoints = distance(5,5,3,3);       
+        const distanceBetweenPoints = distance(10,5,8,10);       
         console.log(distanceBetweenPoints);
