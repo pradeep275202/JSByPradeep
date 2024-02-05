@@ -3,7 +3,7 @@ function jagged(){
          var array =Array.isArray(jagged)
           var sum = 0;
           for (var i = 0; i < array.length; i++) {
-                    //console.log("this is jagged index value ===",i)
+                    console.log("this is jagged index value ===",i)
             for (var j = 0; j <= array[i].length; j++) {
                   console.log("this is j value ==",array[j])     ;
               sum += jaggedArray[i][j]

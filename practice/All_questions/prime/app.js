@@ -77,21 +77,47 @@
 //     console.log(str)
 // }
 
-let array = "create a @ number (hi) # with * 1232 ,,, 5585645 javascript";
-let specialcarrector = "1234567890,! @ # $ % ^ & * ( ) - _ = + \ | { } ; : / ? . >"
-var filter ="  "
-for(var i=0;i<=array.length -1;i++){
-    var match = false
-    for(var j=0;j<specialcarrector.length;j++){
-        if(array[i] == specialcarrector[j] ){
-            match = true
+// let array = "create a @ number (hi) # with * 1232 ,,, 5585645 javascript";
+// let specialcarrector = "1234567890,! @ # $ % ^ & * ( ) - _ = + \ | { } ; : / ? . >"
+// var filter ="  "
+// for(var i=0;i<=array.length -1;i++){
+//     var match = false
+//     for(var j=0;j<specialcarrector.length;j++){
+//         if(array[i] == specialcarrector[j] ){
+//             match = true
            
-        }
-    }
-    if(match === false){
-        filter += (array[i])
+//         }
+//     }
+//     if(match === false){
+//         filter += (array[i])
         
+//     }
+    
+// }
+// console.log(filter)
+
+
+// sum =0 
+// for(var i=0;i<=100;i++){
+//     var prime = true;
+//     for(var j =2 ;j<=i;j++){
+//         if(i%j==0 && i!==j){
+//             prime =false
+//         }
+
+//     }
+//     if(prime = true){
+//         sum += i
+//         console.log(sum)
+//     }
+// }
+
+var arr = [1,2,3,4,5,6]
+var max =0;
+for(var i =0;i<arr.length;i++){
+    if(arr[i]>max){
+        max = arr[i]
     }
     
 }
-console.log(filter)
+console.log(max)

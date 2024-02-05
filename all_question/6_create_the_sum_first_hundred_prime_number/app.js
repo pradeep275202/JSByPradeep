@@ -14,7 +14,6 @@
 // console.log(isPrime(5)); // false
 // // console.log(isPrime(11)); // true
 
-
 // function primenumber(k){
 //   var prime =[];
 //   for(var i=1;i<k;i++){
@@ -29,25 +28,23 @@
 // console.log(primenumber(100))
 
 function isPrime(num) {
-	for(var i = 2; i < num; i++) {
-		if(!(num % i)) {
-			return false
-		}
-	}
-	return true;
+  for (var i = 2; i < num; i++) {
+    if (!(num % i)) {
+      return false;
+    }
+  }
+  return true;
 }
-
 
 function sumPrimes(num) {
-	var sum = 0;
-	for(var i = 2; i <= num; i++) {
-		if(isPrime(i)) {
-			sum += i;
-		}
-	}
-	return sum;
+  var sum = 0;
+  for (var i = 2; i <= num; i++) {
+    if (isPrime(i)) {
+      sum += i;
+    }
+  }
+  return sum;
 }
 
-console.log (sumPrimes(100)) 
-sumPrimes(5) 
-
+console.log(sumPrimes(100));
+sumPrimes(5);
