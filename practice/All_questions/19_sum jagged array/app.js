@@ -1,18 +1,28 @@
-function jagged(){
-          var jaggedArray = [1,2,3,4,[2,34,[2,432,[44,4,55,33],4234,34],656,44,],1,24,,6,8,8];
-          var array =Array.isArray(jagged)
-           var sum = 0;
-           for (var i = 0; i < array.length; i++) {
-                     //console.log("this is jagged index value ===",i)
-             for (var j = 0; j <= array[i].length; j++) {
-                   console.log("this is j value ==",array[j])     ;
-               sum += jaggedArray[i][j]
-               //console.log(sum)
-               
-             }
-             //console.log("jagged array === ",jaggedArray[j])
-             //console.log(sum)
-           }
-           console.log("this is sum value ==",sum)
- }
- jagged()
+// let array = [2, 4, 10, [12, 4, [100, 99], 4], [3, 2, 99], 0];
+// let max = 0;
+// function maxNumber(array) {
+//   for (let i = 0; i < array.length; i++) {
+//     if (Array.isArray(array[i])) {
+//       maxNumber(array[i]);
+//     } else {
+//       if (array[i] > max) {
+//         max = array[i];
+//       }
+//     }
+//   }
+// }
+// maxNumber(array);
+// console.log(max);
+
+let array = [2,4,11,[15,3,5,[55,3,6,],44,55],66,88];
+let sum = 0;
+function maxNumber(array){
+  for(let i=0;i<array.length;i++){
+    if(Array.isArray(array[i]));{
+      sum(array[i])
+    } else {
+            
+    }
+    
+  }
+}
