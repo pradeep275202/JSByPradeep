@@ -318,17 +318,136 @@
 // }
 // console.log(withoutspacing)
 
-function fibonacci(num) {
-      let num1 = 0;
-      let num2 = 1;
-      let sum;
-      for (var i = 0; i < num; i++) {
-          sum = num1 + num2;
-          num1 = num2;
-          num2 = sum;
-      }
-      return num2;
+// function fibonacci(num) {
+//       let num1 = 0;
+//       let num2 = 1;
+//       let sum;
+//       for (var i = 0; i < num; i++) {
+//           sum = num1 + num2;
+//           num1 = num2;
+//           num2 = sum;
+//       }
+//       return num2;
+//     }
+    
+//     console.log("Fibonacci serese 10 time ===: ",fibonacci(10));
+    
+// for(var i=0;i<=100;i++){
+//   var notprime = true;
+//   for(var j=2;j<i;j++){
+//     if(i%j===0 && i!==j){
+//       notprime = false;
+//     }
+//   }
+//   if(notprime === true){
+//     console.log(i)
+
+//   }
+// }
+
+
+// sum = 0
+// for(var i=0;i<=100;i++){
+//   var notprime = false;
+//   for(var j=2;j<i;j++){
+//     if(i%j===0 && i!==j){
+//        notprime = true;
+//     }
+//   }
+//   if(notprime === false){
+//      sum += i
+//     console.log(i,sum)
+//   }
+// }
+
+// filter dublicate number in array
+
+// var arr = [1,1,2,2,3,4,3,3,5]
+// var filterarr =[]
+// for(var i=0;i<arr.length;i++){
+//   var dublicate = true
+//   for(var j= i + 1;j<arr.length;j++){
+//     if(arr[i] == arr[j]){
+//       dublicate = false
+//     }
+//   }
+//   if(dublicate == true){
+//     filterarr.push(arr[i])
+    
+//   }
+  
+// }
+// console.log(filterarr)
+
+
+
+// var str = "this is laptop"
+// var reverce =""
+// for(var i=str.length-1;i>=0;i--){
+//   reverce += str[i]
+
+// }
+// console.log(reverce)
+
+// var str ="this is laptop and this is a key"
+// var count = 0;
+// for(var i=0;i<str.length;i++){
+//   if(str[i]==" "){
+//   }else count++
+  
+// }
+// console.log(count)
+
+
+// var str = "this is laptop"
+// var string = str.split(" ")
+// var capital = " "
+// for(var i=0;i<string.length;i++){
+//   capital += string[i].charAt(0).toUpperCase() + string[i].slice(1)+ " " ;
+// }
+// console.log(capital)
+
+// var num ="1,2,3,4,5"
+// var number= num.split(",")
+// var  numbers =0
+// for(var i=0;i<number.length;i++){
+//     numbers += number[i]
+// }
+// console.log(numbers)
+
+// function fibonacci(num){
+//   var num1 =0
+//   var num2 =1
+//   var sum;
+//   for(var i=0;i<num;i++){
+//     sum = num1+num2
+//     num1= num2
+//     num2= sum
+//   }
+//   console.log(num2)
+
+// }
+// console.log(fibonacci(10))
+
+// var num = BigInt("11111111111111111111")
+// var num1 = BigInt("22222222222222222222")
+// var num2 = num+num1
+// var num3 = num2.toString()
+// console.log(num3,typeof(num3))
+
+var array = "create a @ number (hi) # with * 1232 ,,, 5585645 javascript";
+let specialcarrector = "1234567890,! @ # $ % ^ & * ( ) - _ = +  | { } ; :";
+var filter =[];
+for(var i=0;i<array.length;i++){
+  var special = true
+  for(var j=0;j<specialcarrector.length;j++){
+    if(array[i] === specialcarrector[j]){
+      special = false
     }
-    
-    console.log("Fibonacci serese 10 time ===: ",fibonacci(10));
-    
+  }
+  if(special == true){
+    filter.push(array[i])
+  }
+  console.log(filter)
+}
+
