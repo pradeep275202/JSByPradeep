@@ -1,11 +1,11 @@
 function selectionSort(array) {
   // this on strt loop
-  for (let i = 0; i < array.length; i++) {
+  for (var i = 0; i < array.length; i++) {
     // yha par minIndex ki value array ki index value ke barbar hoga 
     let minIndex = i;
     // yha par second loop start hoga aur j ki value array ki index value
     //me hmesa 1 add karke print karega 
-    for (let j = i + 1; j < array.length; j++) {
+    for (var j = i + 1; j < array.length; j++) {
       // yha par esa condition diya gya hai jo array ki j value se array ki
       // minIndix value bda tab yah conditon chalega
       if (array[j] < array[minIndex]) {

@@ -30,7 +30,7 @@
 function sumArray(ar) {
   let sum = 0;
 
-  for (let el of ar) {  
+  for (let el of ar) {
     if (Array.isArray(el)) {
       el = sumArray(el);
     }
@@ -39,4 +39,5 @@ function sumArray(ar) {
 
   return sum;
 }
-console.log(sumArray([1, 2,6 ,[15,66 ,[23,55], [5, 12],33], [100],22]));
+console.log(sumArray([1, 2, 6, [15, 66, [23, 55], [5, 12], 33], [100], 22]));
+

@@ -329,9 +329,9 @@
 //       }
 //       return num2;
 //     }
-    
+
 //     console.log("Fibonacci serese 10 time ===: ",fibonacci(10));
-    
+
 // for(var i=0;i<=100;i++){
 //   var notprime = true;
 //   for(var j=2;j<i;j++){
@@ -344,7 +344,6 @@
 
 //   }
 // }
-
 
 // sum = 0
 // for(var i=0;i<=100;i++){
@@ -373,13 +372,11 @@
 //   }
 //   if(dublicate == true){
 //     filterarr.push(arr[i])
-    
+
 //   }
-  
+
 // }
 // console.log(filterarr)
-
-
 
 // var str = "this is laptop"
 // var reverce =""
@@ -394,10 +391,9 @@
 // for(var i=0;i<str.length;i++){
 //   if(str[i]==" "){
 //   }else count++
-  
+
 // }
 // console.log(count)
-
 
 // var str = "this is laptop"
 // var string = str.split(" ")
@@ -435,19 +431,103 @@
 // var num3 = num2.toString()
 // console.log(num3,typeof(num3))
 
-var array = "create a @ number (hi) # with * 1232 ,,, 5585645 javascript";
-let specialcarrector = "1234567890,! @ # $ % ^ & * ( ) - _ = +  | { } ; :";
-var filter =[];
-for(var i=0;i<array.length;i++){
-  var special = true
-  for(var j=0;j<specialcarrector.length;j++){
-    if(array[i] === specialcarrector[j]){
-      special = false
-    }
-  }
-  if(special == true){
-    filter.push(array[i])
-  }
-  console.log(filter)
-}
+// var array = "create a @ number (hi) # with * 1232 ,,, 5585645 javascript";
+// let specialcarrector = "1234567890,! @ # $ % ^ & * ( ) - _ = +  | { } ; :";
+// var filter =[];
+// for(var i=0;i<array.length;i++){
+//   var special = true
+//   for(var j=0;j<specialcarrector.length;j++){
+//     if(array[i] === specialcarrector[j]){
+//       special = false
+//     }
+//   }
+//   if(special == true){
+//     filter.push(array[i])
+//   }
+//   console.log(filter)
+// }
 
+// function sumArray(ar) {
+//   let sum = 0;
+
+//   for (let el of ar) {
+//     if (Array.isArray(el)) {
+//       el = sumArray(el);
+//     }
+//     sum += el;
+//   }
+
+//   return sum;
+// }
+// console.log(sumArray([1, 2, 6, [15, 66, [23, 55], [5, 12], 33], [100], 22]));
+
+// let array = [2, 4, 10, [12, 4, [100, 99], 4], [3, 2, 99], 0];
+// let max = 0;
+// function maxNumber(array) {
+//   for (let i = 0; i < array.length; i++) {
+//     if (Array.isArray(array[i])) {
+//       maxNumber(array[i]);
+//     } else {
+//       if (array[i] > max) {
+//         max = array[i];
+//       }
+//     }
+//   }
+// }
+// maxNumber(array);
+// console.log(max);
+
+// function ordre(liste) {
+//   var result = [];
+
+//   for (i = 0; i < liste.length; i++) {
+//     for (j = 0; j < liste.length; j++) {
+//       if (liste[i] > liste[j + 1]) {
+//         result += j
+//       }
+//     }
+//   }
+
+//   console.log(result);
+// }
+
+// ordre([1, 4, 9, 5, 6, 7, 3, 4, 8]);
+
+// var arr = [1,4,3,5,2]
+// var sort = []
+// for(var i=0;i<arr.length;i++){
+//   for(var j=0;j<i;j++){
+//     if(arr[i]>arr[j]){
+//       sort +=i
+//       sort.push(arr[i])
+
+//     }
+//   }
+
+// }
+// console.log(sort)
+
+// function confirmEnding(str, target) {
+//   if (target === "") {
+//     return true;
+//   }
+
+//   if (target.length > str.length) {
+//     return false;
+//   }
+
+//   const ending = str.substring(str.length - target.length);
+
+//   return ending === target;
+// }
+// console.log(confirmEnding(12, 22));
+
+
+function confirmEnding(string, target) {
+  if (string.substr(-target.length) === target) {
+    return true;
+  } else {
+    return false;
+  }
+}
+confirmEnding()
