@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .size {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .color {
+        color: red;
+        background-color: black;
+      }
+      .mouse {
+        cursor: pointer;
+      }
+    </style>
+    <button onclick="addclass()">Click me</button>
+    <br />
+    <br />
+    <span></span>
+    <script>
+      const btn = document.querySelector("button");
+      function addclass() {
+        btn.classList.add("size");
+        btn.classList.add("color");
+        btn.classList.add("mouse");
+        document.querySelector("span").innerHTML = "how are you";
+      }
+    </script>
+  </body>
+</html>

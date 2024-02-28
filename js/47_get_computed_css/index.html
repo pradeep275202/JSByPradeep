@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+</head>
+<body>
+          <style>
+                    button{
+                              font-size: 50px;
+                              color: blue;
+                              background-color: pink;
+                              cursor: pointer;
+                              font-weight: bold;
+                    }
+          </style>
+          <button>Click me</button>
+          <script>
+                    const btn = document.querySelector("button")
+                    const result = getComputedStyle(btn)
+                    console.log("this on check how many add css color ===",result)
+                    // get the custom style
+                    console.log("custom css color ======  ",result.color)
+          </script>
+</body>
+</html>
